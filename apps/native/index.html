@@ -11,7 +11,14 @@
 </head>
 
 <body>
-    <wc-button label="Button Element" class="primary" icon="person"></wc-button>
+    <wc-button id="wc-button" label="Button Element" class="primary" icon="person"></wc-button>
+
+    <script>
+        var button = document.getElementById('wc-button');
+        button.action = function() {
+            alert("Button Clicked!");
+        }
+    </script>
 
     <script src="assets/polyfills-es5.js" nomodule defer></script>
     <script src="assets/polyfills-es2015.js" type="module"></script>
