@@ -1,0 +1,9 @@
+<button type="button"
+    (click)="executeAction()"
+    class="btn btn-{{(disabled) ? 'disabled' : class}}"
+    [disabled]="disabled">
+    <div class="btn-content">
+        <i *ngIf="icon" class="material-icons">{{icon}}</i>
+        <span *ngIf="label">{{label}}</span>
+    </div>
+</button>
