@@ -30,6 +30,13 @@
     },
     "ng-sandbox": {
       "tags": []
+    },
+    "react-sandbox": {
+      "tags": []
+    },
+    "react-sandbox-e2e": {
+      "tags": [],
+      "implicitDependencies": ["react-sandbox"]
     }
   }
 }
