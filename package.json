@@ -27,7 +27,7 @@
     "dep-graph": "nx dep-graph",
     "help": "nx help",
     "postinstall:bak": "node ./decorate-angular-cli.js && ngcc --properties es2015 browser module main --first-only --create-ivy-entry-points",
-    "build:elements:externals": "ng build --extra-webpack-config apps/elements/webpack.externals.js --prod --project elements --single-bundle"
+    "build:elements:externals": "ng build --extra-webpack-config apps/elements/webpack.externals.js --prod --project elements --single-bundle && copy apps\\elements\\package.json dist\\apps\\elements"
   },
   "private": true,
   "dependencies": {

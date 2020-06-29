@@ -1,6 +1,11 @@
 {
-  "name": "@wc-platform/components",
+  "name": "@ngguerrilla/components",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngGuerrilla/web-components.git"
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "peerDependencies": {
     "@angular/common": "^9.1.11",
     "@angular/core": "^9.1.11"
