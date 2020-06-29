@@ -19,9 +19,6 @@
     }
   },
   "projects": {
-    "sandbox": {
-      "tags": []
-    },
     "components": {
       "tags": []
     },
@@ -29,6 +26,9 @@
       "tags": []
     },
     "elements": {
+      "tags": []
+    },
+    "ng-sandbox": {
       "tags": []
     }
   }

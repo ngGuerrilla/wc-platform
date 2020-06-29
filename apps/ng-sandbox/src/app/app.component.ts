@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'sandbox';
+  title = 'Angular sandbox';
 
   buttonAction = () => {
     alert('Button Clicked');

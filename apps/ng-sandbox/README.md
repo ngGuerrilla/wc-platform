@@ -1,8 +1,8 @@
-# sandbox
+# ng-sandbox
 
 ## Description
 
-This is the host application
+This is the angular host application
 
 ## Dependencies
 
@@ -11,12 +11,12 @@ Generate required web components with `npm run npm run build:elements:externals`
 
 ## Building
 
-Run `nx build sandbox` to build project
+Run `nx build ng-sandbox` to build project
 
 ## Serving
 
-Run `nx serve sandbox` to serve project
+Run `nx serve ng-sandbox` to serve project
 
 ## Running unit tests
 
-Run `nx test components` to execute the unit tests.
+Run `nx test ng-sandbox` to execute the unit tests.
