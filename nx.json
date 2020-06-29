@@ -22,11 +22,13 @@
     "sandbox": {
       "tags": []
     },
-    "sandbox-e2e": {
-      "tags": [],
-      "implicitDependencies": ["sandbox"]
-    },
     "components": {
+      "tags": []
+    },
+    "shared": {
+      "tags": []
+    },
+    "elements": {
       "tags": []
     }
   }

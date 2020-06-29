@@ -1,4 +1,6 @@
+// Modules
+export * from './lib/button/button.module';
 export * from './lib/components.module';
 
-export * from './lib/button/button.module';
-
+ // Components
+ export * from './lib/button/button.component';

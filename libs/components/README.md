@@ -1,6 +1,8 @@
 # components
 
-This library was generated with [Nx](https://nx.dev).
+## Description
+
+This is a publishable angular library
 
 ## Running unit tests
 

@@ -16,7 +16,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@wc-platform/components": ["libs/components/src/index.ts"]
+      "@wc-platform/components": ["libs/components/src/index.ts"],
+      "@wc-platform/shared": ["libs/shared/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
