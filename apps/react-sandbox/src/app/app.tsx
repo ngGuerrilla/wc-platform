@@ -17,7 +17,9 @@ export class App extends Component {
         const label = 'Primary Button';
         const buttonClass = 'primary';
         const icon = 'apps';
-
+        const selectModel = [];
+        const selectOptions = [{ id: 1, label: 'Item 1' }, { id: 2, label: 'Item 2' }, { id: 3, label: 'Item 3' }, { id: 4, label: 'Item 4' }];
+        
         return (
             <div className="app">
                 <header className="flex">
@@ -25,6 +27,10 @@ export class App extends Component {
                 </header>
                 <main>
                     <wc-button label={label} class={buttonClass} action={this.handleClick} icon={icon}></wc-button>
+
+                    <div>
+                        <wc-select model={selectModel} options={selectOptions} bindLabel="label" bindValue="id" placeholder="Select Something" multiple="true"></wc-select>
+                    </div>
                 </main>
             </div>
         );
