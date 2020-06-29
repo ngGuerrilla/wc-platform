@@ -1,7 +1,11 @@
 <header class="flex">
-  <h1>Welcome to {{ title }}!</h1>
+    <h1>Welcome to {{ title }}!</h1>
 </header>
 <main>
-  <wc-button [label]="'Primary Button'" [class]="'primary'" [action]="buttonAction" [icon]="'apps'"></wc-button>
-  <wc-button [label]="'Secondary Button'" [class]="'secondary'" [action]="buttonAction" [icon]="'person'"></wc-button>
+    <wc-button [label]="'Primary Button'" [class]="'primary'" [action]="buttonAction" [icon]="'apps'"></wc-button>
+    <wc-button [label]="'Secondary Button'" [class]="'secondary'" [action]="buttonAction" [icon]="'person'"></wc-button>
+
+    <div>
+        <wc-select [model]="selectModel" [options]="selectOptions" [bindLabel]="'label'" [bindValue]="'id'" [placeholder]="'Select Something'" [multiple]="true"></wc-select>
+    </div>
 </main>

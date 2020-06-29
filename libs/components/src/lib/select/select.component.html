@@ -1,0 +1,10 @@
+<ng-select [multiple]="multiple" [items]="options" [(ngModel)]="selectedItems" [placeholder]="placeholder"
+    [bindLabel]="bindLabel" [bindValue]="bindValue">
+    <ng-template ng-header-tmp>
+        <button (click)="selectAll()" class="btn btn-sm btn-secondary">Select all</button>
+        <button (click)="unselectAll()" class="btn btn-sm btn-secondary">Unselect all</button>
+    </ng-template>
+    <ng-template ng-footer-tmp>
+        Selected count: {{selectedItems.length}}
+    </ng-template>
+</ng-select>

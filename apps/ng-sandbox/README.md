@@ -9,6 +9,10 @@ This is the angular host application
 Web Components must be generated before building/serving application
 Generate required web components with `npm run npm run build:elements:externals`
 
+## Serve with dependencies (this will build web components and then serve the app)
+
+Run `nx run ng-sandbox:serve-withdeps`
+
 ## Building
 
 Run `nx build ng-sandbox` to build project
